@@ -4,16 +4,95 @@
         {
             "Id" : 1,
             "ReferenceName" : "Dennis Introduction",
-            "Content" : "Meet Dennis, an accomplished writer based in Paris, France. He has always been drawn to writing, starting from ",
+            "Prompt" : "Write a brief character introduction about Dennis, a writer based in Europe.",
             "ImageUrl" : null,
             "FirstPathId" : 2
         },
         {
             "Id" : 2,
-            "ReferenceName" : "Name Test",
-            "Content" : "Content Test",
+            "ReferenceName" : "Dennis wanders through the streets at night.",
+            "Prompt" : "Write a brief passage about Dennis walking through the streets of his city at night. He goes back and sees two books in his apartment.",
             "ImageUrl" : null,
-            "FirstPathId" : 2
+            "FirstPathId" : 3,
+            "SecondPathId" : 4
+        },
+        {
+            "Id" : 3,
+            "ReferenceName" : "Dennis reads book 1.",
+            "Prompt" : "Write a brief passage about Dennis reading a book about a horror story in prison.",
+            "ImageUrl" : null,
+            "FirstPathId" : 5
+        },
+        {
+            "Id" : 4,
+            "ReferenceName" : "Dennis reads book 2.",
+            "Prompt" : "Write a brief passage about Dennis reading a book about a horror story turned into philosophy of life.",
+            "ImageUrl" : null,
+            "FirstPathId" : 5
+        },
+        {
+            "Id" : 5,
+            "ReferenceName" : "Dennis finishes reading, life is good.",
+            "Prompt" : "Write a brief passage about Dennis life as a writer and how he feels good about his life.",
+            "ImageUrl" : null,
+            "FirstPathId" : 6
+        },
+        {
+            "Id" : 6,
+            "ReferenceName" : "Dennis takes a walk.",
+            "Prompt" : "Write a brief passage about Dennis taking a stroll at night and stumbles across two paths, a normal one and a dark one.",
+            "ImageUrl" : null,
+            "FirstPathId" : 7,
+            "SecondPathId" : 8
+        },
+        {
+            "Id" : 7,
+            "ReferenceName" : "Dennis goes into the dark path.",
+            "Prompt" : "Write a brief passage about Dennis choosing to walk through a dark path with no people.",
+            "ImageUrl" : null,
+            "FirstPathId" : 8
+        },
+        {
+            "Id" : 8,
+            "ReferenceName" : "Dennis sees the homeless man.",
+            "Prompt" : "Write a brief passage about Dennis seeing a homeless man and getting the urge to kill him.",
+            "ImageUrl" : null,
+            "FirstPathId" : 9
+        },
+        {
+            "Id" : 9,
+            "ReferenceName" : "Dennis kills the man.",
+            "Prompt" : "Write a brief passage about Dennis grabbing something from the floor and dropping it in the man's head, killing him.",
+            "ImageUrl" : null,
+            "FirstPathId" : 10
+        },
+        {
+            "Id" : 10,
+            "ReferenceName" : "Dennis goes back and reflects...",
+            "Prompt" : "Write a brief passage about Dennis going back to his apartment and reflecting on why he killed the man.",
+            "ImageUrl" : null,
+            "FirstPathId" : 11
+        },
+        {
+            "Id" : 11,
+            "ReferenceName" : "Dennis goes to walk in a park.",
+            "Prompt" : "Write a brief passage about how the next day, Dennis took a walk in a nearby park, in a sunny day.",
+            "ImageUrl" : null,
+            "FirstPathId" : 12
+        },
+        {
+            "Id" : 12,
+            "ReferenceName" : "Dennis sees a woman reading a book.",
+            "Prompt" : "Write a brief passage about how Dennis sees a woman reading a book and feels something weird and bad inside his head.",
+            "ImageUrl" : null,
+            "FirstPathId" : 13
+        },
+        {
+            "Id" : 14,
+            "ReferenceName" : "Dennis kills the woman",
+            "Prompt" : "Write a brief passage about how Dennis approaches the woman reading, and kills her.",
+            "ImageUrl" : null,
+            "FirstPathId" : 15
         }
     ]
 }

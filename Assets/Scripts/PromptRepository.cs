@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using System.IO;
 using Newtonsoft.Json;
 using UnityEngine;
 using UnityEngine.Networking;
@@ -9,12 +11,12 @@ namespace Assets.Scripts
     {
         private const string ApiUrl = "https://dennis-backend.fly.dev";
 
-        public IEnumerator GetPromptResponse(string prompt)
+        public IEnumerator GetPromptResponse(int nodeId, string prompt, Action<(string, int)> callback)
         {
             var uwr = new UnityWebRequest($"{ApiUrl}/completion", "POST");
             var request = new PromptRequest
             {
-                pass = "test",
+                pass = GetLocalPassport(),
                 prompt = prompt
             };
             var jsonString = JsonConvert.SerializeObject(request);
@@ -32,8 +34,16 @@ namespace Assets.Scripts
             }
             else
             {
-                Debug.Log("Received: " + uwr.downloadHandler.text);
+                // Deserialize into result
+                var resultObject = JsonConvert.DeserializeObject<PromptResult>(uwr.downloadHandler.text);
+                callback((resultObject.result, nodeId));
             }
+        }
+        
+        public string GetLocalPassport()
+        {
+            var path = Path.Combine(Directory.GetCurrentDirectory(), "Assets/.env");
+            return File.ReadAllText(path);
         }
     }
 }

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Assets.Scripts
 {
     public class StoryNode
@@ -5,8 +7,14 @@ namespace Assets.Scripts
         public int Id { get; set; }
         public string ReferenceName { get; set; }
         public string ImageUrl { get; set; }
+        public string Prompt { get; set; }
         public string Content { get; set; }
         public int FirstPathId { get; set; }
         public int SecondPathId { get; set; }
+    }
+
+    public class StoryNodes
+    {
+        public List<StoryNode> Nodes { get; set; }
     }
 }
