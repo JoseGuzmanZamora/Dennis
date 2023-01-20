@@ -9,8 +9,8 @@ namespace Assets.Scripts
         public string ImageUrl { get; set; }
         public string Prompt { get; set; }
         public string Content { get; set; }
-        public int FirstPathId { get; set; }
-        public int SecondPathId { get; set; }
+        public int? FirstPathId { get; set; }
+        public int? SecondPathId { get; set; }
         public string FirstButtonText { get; set; }
         public string SecondButtonText { get; set; }
     }

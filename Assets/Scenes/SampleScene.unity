@@ -285,6 +285,7 @@ GameObject:
   m_Component:
   - component: {fileID: 651911354}
   - component: {fileID: 651911355}
+  - component: {fileID: 651911356}
   m_Layer: 0
   m_Name: Bootstrapper
   m_TagString: Untagged
@@ -319,6 +320,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2ed0dd1a167a4c418720c5577848657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDone: 0
+--- !u!114 &651911356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 651911353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99d27899afd454afe8f0a6392cd1f295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selectedNode: 1
+  isInitialized: 0
+  bootstrapper: {fileID: 651911355}
+  content: {fileID: 1789564663}
+  button1Text: {fileID: 702642864}
+  button2Text: {fileID: 1970438790}
+  button1: {fileID: 1976398473}
+  button2: {fileID: 1016787266}
+  isGeneratingFirstOption: 0
+  isGeneratingSecondOption: 0
 --- !u!1 &702642862
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +639,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1016787267}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 651911356}
+        m_TargetAssemblyTypeName: StoryManager, Assembly-CSharp
+        m_MethodName: ContinueToOption2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1016787267
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -893,7 +929,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Test
+  m_text: Waiting for the AI to generate text...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -920,14 +956,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.2
-  m_fontSizeBase: 27.2
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0
   m_fontSizeMax: 0
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 8
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -936,7 +972,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 0
+  m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
@@ -1190,7 +1226,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1976398474}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 651911356}
+        m_TargetAssemblyTypeName: StoryManager, Assembly-CSharp
+        m_MethodName: ContinueToOption1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1976398474
 MonoBehaviour:
   m_ObjectHideFlags: 0

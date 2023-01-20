@@ -10,6 +10,7 @@ public class Bootstrapper : MonoBehaviour
     public StoryNodes staticData;
     public PromptRepository repository;
     public Dictionary<int, string> storyContent;
+    public bool isDone = false;
     void Start()
     {
         storyContent = new Dictionary<int, string>();
@@ -34,14 +35,22 @@ public class Bootstrapper : MonoBehaviour
     {
         var firstNode = staticData.Nodes[0];
         var secondNode = staticData.Nodes[1];
-        StartCoroutine(repository.GetPromptResponse(firstNode.Id, firstNode.Prompt, ResultCallback));
-        StartCoroutine(repository.GetPromptResponse(secondNode.Id, secondNode.Prompt, ResultCallback));
+        StartCoroutine(repository.GetPromptResponse(firstNode.Id, firstNode.Prompt, 0, ResultCallback));
+        StartCoroutine(repository.GetPromptResponse(secondNode.Id, secondNode.Prompt, 0, ResultCallback));
     }
 
     // Adding the result of the introduction to the dictionary
-    public void ResultCallback((string content, int nodeId) result)
+    public void ResultCallback((string content, int nodeId, int optionHelper) result)
     {
         storyContent[result.nodeId] = result.content;
         Debug.Log(JsonConvert.SerializeObject(storyContent));
     }
+    
+    private void Update() {
+        if (storyContent.Count >= 2 && isDone is false)
+        {
+            isDone = true;
+        }
+    }
+    
 }

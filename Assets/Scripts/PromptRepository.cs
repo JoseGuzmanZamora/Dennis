@@ -11,7 +11,7 @@ namespace Assets.Scripts
     {
         private const string ApiUrl = "https://dennis-backend.fly.dev";
 
-        public IEnumerator GetPromptResponse(int nodeId, string prompt, Action<(string, int)> callback)
+        public IEnumerator GetPromptResponse(int nodeId, string prompt, int optionHelper, Action<(string, int, int)> callback)
         {
             var uwr = new UnityWebRequest($"{ApiUrl}/completion", "POST");
             var request = new PromptRequest
@@ -36,7 +36,7 @@ namespace Assets.Scripts
             {
                 // Deserialize into result
                 var resultObject = JsonConvert.DeserializeObject<PromptResult>(uwr.downloadHandler.text);
-                callback((resultObject.result, nodeId));
+                callback((resultObject.result, nodeId, optionHelper));
             }
         }
         

@@ -95,7 +95,7 @@
             "SecondButtonText" : "Carry On"
         },
         {
-            "Id" : 14,
+            "Id" : 13,
             "ReferenceName" : "Dennis kills the woman",
             "Prompt" : "Write a brief passage about how Dennis approaches the woman reading, and kills her.",
             "ImageUrl" : null,
@@ -130,10 +130,10 @@
             "ReferenceName" : "Dennis kills the man.",
             "Prompt" : "Write a brief passage about how Dennis pushes the man into the metro rails and escapes the scene.",
             "ImageUrl" : null,
-            "FirstPathId" : 19
+            "FirstPathId" : 51
         },
         {
-            "Id" : 18,
+            "Id" : 51,
             "ReferenceName" : "Dennis goes to the tower and wonders what is happening.",
             "Prompt" : "Write a brief passage about how Dennis reaches the tourist spot and wanders for some time, reflecting on his actions.",
             "ImageUrl" : null,
