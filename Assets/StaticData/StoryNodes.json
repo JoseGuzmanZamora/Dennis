@@ -13,6 +13,8 @@
             "ReferenceName" : "Dennis wanders through the streets at night.",
             "Prompt" : "Write a brief passage about Dennis walking through the streets of his city at night. He goes back and sees two books in his apartment.",
             "ImageUrl" : null,
+            "FirstButtonText" : "Read Book #1",
+            "SecondButtonText" : "Read Book #2",
             "FirstPathId" : 3,
             "SecondPathId" : 4
         },
@@ -43,7 +45,9 @@
             "Prompt" : "Write a brief passage about Dennis taking a stroll at night and stumbles across two paths, a normal one and a dark one.",
             "ImageUrl" : null,
             "FirstPathId" : 7,
-            "SecondPathId" : 8
+            "SecondPathId" : 48,
+            "FirstButtonText" : "Dark Path",
+            "SecondButtonText" : "Normal Path"
         },
         {
             "Id" : 7,
@@ -85,12 +89,287 @@
             "ReferenceName" : "Dennis sees a woman reading a book.",
             "Prompt" : "Write a brief passage about how Dennis sees a woman reading a book and feels something weird and bad inside his head.",
             "ImageUrl" : null,
-            "FirstPathId" : 13
+            "FirstPathId" : 13,
+            "SecondPathId" : 39,
+            "FirstButtonText" : "Kill Her",
+            "SecondButtonText" : "Carry On"
         },
         {
             "Id" : 14,
             "ReferenceName" : "Dennis kills the woman",
             "Prompt" : "Write a brief passage about how Dennis approaches the woman reading, and kills her.",
+            "ImageUrl" : null,
+            "FirstPathId" : 15
+        },
+        {
+            "Id" : 15,
+            "ReferenceName" : "Dennis goes back to his apartment.",
+            "Prompt" : "Write a brief passage about how Dennis, while going back to his apartment, meets a friend who is going to a social event.",
+            "ImageUrl" : null,
+            "FirstPathId" : 16,
+            "FirstButtonText" : "Don't Go",
+            "SecondButtonText" : "Go",
+            "SecondPathId" : 26
+        },
+        {
+            "Id" : 16,
+            "ReferenceName" : "Dennis doesn't go to the event, walks to tower eiffel.",
+            "Prompt" : "Write a brief passage about how Dennis decides not to go to the event and plans to take a walk to a tourist spot.",
+            "ImageUrl" : null,
+            "FirstPathId" : 17
+        },
+        {
+            "Id" : 17,
+            "ReferenceName" : "Dennis goes through the metro.",
+            "Prompt" : "Write a brief passage about how in the metro, Dennis sees no people, only one man. Alone.",
+            "ImageUrl" : null,
+            "FirstPathId" : 18
+        },
+        {
+            "Id" : 18,
+            "ReferenceName" : "Dennis kills the man.",
+            "Prompt" : "Write a brief passage about how Dennis pushes the man into the metro rails and escapes the scene.",
+            "ImageUrl" : null,
+            "FirstPathId" : 19
+        },
+        {
+            "Id" : 18,
+            "ReferenceName" : "Dennis goes to the tower and wonders what is happening.",
+            "Prompt" : "Write a brief passage about how Dennis reaches the tourist spot and wanders for some time, reflecting on his actions.",
+            "ImageUrl" : null,
+            "FirstPathId" : 19
+        },
+        {
+            "Id" : 19,
+            "ReferenceName" : "Dennis stumbles across the old couple.",
+            "Prompt" : "Write a brief passage about how a few days later, Dennis was walking and stumbles across an old cute couple.",
+            "ImageUrl" : null,
+            "FirstPathId" : 20
+        },
+        {
+            "Id" : 20,
+            "ReferenceName" : "Dennis has the decision to kill the couple.",
+            "Prompt" : "Write a brief passage about how Dennis offers the old couple help, and feels bad about the situation.",
+            "ImageUrl" : null,
+            "FirstPathId" : 21,
+            "FirstButtonText" : "Get'em",
+            "SecondButtonText" : "Help them",
+            "SecondPathId" : 22
+        },
+        {
+            "Id" : 21,
+            "ReferenceName" : "Dennis gets killed.",
+            "Prompt" : "Write a brief passage about how Dennis tries to attack the couple but the old man has a weapon. He kills Dennis...",
+            "ImageUrl" : null
+        },
+        {
+            "Id" : 22,
+            "ReferenceName" : "Dennis decides not to kill the couple.",
+            "Prompt" : "Write a brief passage about how Dennis decides not to kill the couple and helps them find their way.",
+            "ImageUrl" : null,
+            "FirstPathId" : 23
+        },
+        {
+            "Id" : 23,
+            "ReferenceName" : "Dennis reflects and might turn to the authorities.",
+            "Prompt" : "Write a brief passage about how Dennis feels bad for being a serial killer and starts reflecting.",
+            "ImageUrl" : null,
+            "FirstPathId" : 24,
+            "SecondPathId" : 25,
+            "FirstButtonText" : "Turn to authorities",
+            "SecondButtonText" : "Reform"
+        },
+        {
+            "Id" : 24,
+            "ReferenceName" : "Dennis goes to jail",
+            "Prompt" : "Write a brief passage about how Dennis turns himself to authorities and gets a life sentence in jail.",
+            "ImageUrl" : null
+        },
+        {
+            "Id" : 25,
+            "ReferenceName" : "Dennis goes to another city",
+            "Prompt" : "Write a brief passage about how Dennis reforms himself and moves city, carries on with his life.",
+            "ImageUrl" : null
+        },
+        {
+            "Id" : 26,
+            "ReferenceName" : "Dennis goes to the social event.",
+            "Prompt" : "Write a brief passage about how Dennis goes to the social event with his friend and has fun.",
+            "ImageUrl" : null,
+            "FirstPathId" : 27
+        },
+        {
+            "Id" : 27,
+            "ReferenceName" : "Dennis goes in a road trip",
+            "Prompt" : "Write a brief passage about how the next day, Dennis goes in a road trip with a rented car.",
+            "ImageUrl" : null,
+            "FirstPathId" : 28
+        },
+        {
+            "Id" : 28,
+            "ReferenceName" : "Dennis sees a couple riding bikes.",
+            "Prompt" : "Write a brief passage about how, while driving, Dennis sees a couple riding bikes and he feels bad.",
+            "ImageUrl" : null,
+            "FirstPathId" : 29,
+            "SecondPathId" : 32,
+            "FirstButtonText" : "Crash into them",
+            "SecondButtonText" : "Carry On"
+        },
+        {
+            "Id" : 29,
+            "ReferenceName" : "Dennis crashes into the couple.",
+            "Prompt" : "Write a brief passage about how Dennis crashes into the couple, killing them.",
+            "ImageUrl" : null,
+            "FirstPathId" : 30
+        },
+        {
+            "Id" : 30,
+            "ReferenceName" : "Dennis finishes his trip.",
+            "Prompt" : "Write a brief passage about Dennis finishing his roadtrip and looking over the city.",
+            "ImageUrl" : null,
+            "FirstPathId" : 31
+        },
+        {
+            "Id" : 31,
+            "ReferenceName" : "Dennis starts thinking about moving countries.",
+            "Prompt" : "Write a brief passage about Dennis researches which country to move to next.",
+            "ImageUrl" : null,
+            "FirstPathId" : 23
+        },
+        {
+            "Id" : 32,
+            "ReferenceName" : "Dennis decides not to crash into the couple.",
+            "Prompt" : "Write a brief passage about how Dennis continues normally with his roadtrip.",
+            "ImageUrl" : null,
+            "FirstPathId" : 33
+        },
+        {
+            "Id" : 33,
+            "ReferenceName" : "Dennis meets a girl...",
+            "Prompt" : "Write a brief passage about how Dennis meets a girl, she is into reading.",
+            "ImageUrl" : null,
+            "FirstPathId" : 34
+        },
+        {
+            "Id" : 34,
+            "ReferenceName" : "Dennis relationship progresses.",
+            "Prompt" : "Write a brief passage about how Dennis has a romantic dinner with this girl, in his apartment.",
+            "ImageUrl" : null,
+            "FirstPathId" : 35
+        },
+        {
+            "Id" : 35,
+            "ReferenceName" : "Dennis goes to the kitchen.",
+            "Prompt" : "Write a brief passage about how Dennis, during the dinner, goes to the kitchen and grabs a knife.",
+            "ImageUrl" : null,
+            "FirstPathId" : 36,
+            "SecondPathId" : 37,
+            "FirstButtonText" : "Kill Her",
+            "SecondButtonText" : "Cut Food"
+        },
+        {
+            "Id" : 36,
+            "ReferenceName" : "Dennis kills the woman.",
+            "Prompt" : "Write a brief passage about how Dennis kills the woman with the knife.",
+            "ImageUrl" : null,
+            "FirstPathId" : 31
+        },
+        {
+            "Id" : 37,
+            "ReferenceName" : "Dennis is in love.",
+            "Prompt" : "Write a brief passage about how Dennis is in love with the girl, and can't stop thinking about her.",
+            "ImageUrl" : null,
+            "FirstPathId" : 38
+        },
+        {
+            "Id" : 38,
+            "ReferenceName" : "Dennis is in love. End",
+            "Prompt" : "Write a brief passage about how Dennis relationship progresses, he stops killing people, but keeps his secrets to himself.",
+            "ImageUrl" : null
+        },
+        {
+            "Id" : 39,
+            "ReferenceName" : "Dennis decides not to kill her and continues walking.",
+            "Prompt" : "Write a brief passage about how Dennis continues walking in the park, feeling refreshed.",
+            "ImageUrl" : null,
+            "FirstPathId" : 40
+        },
+        {
+            "Id" : 40,
+            "ReferenceName" : "Dennis stumbles across a grumpy man.",
+            "Prompt" : "Write a brief passage about how Dennis was walking and he bumped into a grumpy old man, who yells at him.",
+            "ImageUrl" : null,
+            "FirstPathId" : 41
+        },
+        {
+            "Id" : 41,
+            "ReferenceName" : "Dennis kills the grumpy man.",
+            "Prompt" : "Write a brief passage about how Dennis grabs the grumpy man, and kills him in a weird way.",
+            "ImageUrl" : null,
+            "FirstPathId" : 42
+        },
+        {
+            "Id" : 42,
+            "ReferenceName" : "Dennis goes back and sleeps.",
+            "Prompt" : "Write a brief passage about how Dennis goes back to his apartment, and sleeps off the panic.",
+            "ImageUrl" : null,
+            "FirstPathId" : 43
+        },
+        {
+            "Id" : 43,
+            "ReferenceName" : "Dennis gets invited to a birthday.",
+            "Prompt" : "Write a brief passage about how a few weeks later, Dennis gets a call from a friend who is having a birthday.",
+            "ImageUrl" : null,
+            "FirstPathId" : 44
+        },
+        {
+            "Id" : 44,
+            "ReferenceName" : "Dennis serves drinks.",
+            "Prompt" : "Write a brief passage about how, while at the birthday party, Dennis is serving some drinks to everyone.",
+            "ImageUrl" : null,
+            "SecondPathId" : 45,
+            "FirstPathId" : 46,
+            "FirstButtonText" : "Poison",
+            "SecondButtonText" : "Normal Serve"
+        },
+        {
+            "Id" : 45,
+            "ReferenceName" : "Dennis does not poison them",
+            "Prompt" : "Write a brief passage about how Dennis serves drinks and continues to enjoy the party.",
+            "ImageUrl" : null,
+            "FirstPathId" : 33
+        },
+        {
+            "Id" : 46,
+            "ReferenceName" : "Dennis poisons them.",
+            "Prompt" : "Write a brief passage about how, while at the party, Dennis serves drinks with poison and kills a group of people.",
+            "ImageUrl" : null,
+            "FirstPathId" : 47
+        },
+        {
+            "Id" : 47,
+            "ReferenceName" : "Dennis jumps off a bridge.",
+            "Prompt" : "Write a brief passage about how Dennis can't handle being controlled by AI and runs, jumping off a bridge.",
+            "ImageUrl" : null
+        },
+        {
+            "Id" : 48,
+            "ReferenceName" : "Dennis walks through normal path",
+            "Prompt" : "Write a brief passage about how Dennis continues walking through the normal path.",
+            "ImageUrl" : null,
+            "FirstPathId" : 49
+        },
+        {
+            "Id" : 49,
+            "ReferenceName" : "Dennis goes to do groceries.",
+            "Prompt" : "Write a brief passage about how Dennis goes to grab some groceries and is relaxed.",
+            "ImageUrl" : null,
+            "FirstPathId" : 50
+        },
+        {
+            "Id" : 50,
+            "ReferenceName" : "Dennis pushes a man.",
+            "Prompt" : "Write a brief passage about how Dennis, while going back home, sees a man cycling and he pushes him into a bus.",
             "ImageUrl" : null,
             "FirstPathId" : 15
         }
