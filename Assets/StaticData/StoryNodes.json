@@ -4,7 +4,7 @@
         {
             "Id" : 1,
             "ReferenceName" : "Dennis Introduction",
-            "Prompt" : "Write a brief character introduction about Dennis, a writer based in Europe.",
+            "Prompt" : "Compose a maximum 5 sentence long character introduction about Dennis, a writer based in Paris.",
             "ImageUrl" : null,
             "FirstPathId" : 2
         },

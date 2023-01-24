@@ -5,6 +5,7 @@ using Assets.Scripts;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Text.RegularExpressions;
 
 public class StoryManager : MonoBehaviour
 {
@@ -47,12 +48,25 @@ public class StoryManager : MonoBehaviour
 
         if (storyContent.TryGetValue(selectedNode, out var currentContent))
         {
-            content.text = currentContent;
+            button1.gameObject.SetActive(true);
+            button2.gameObject.SetActive(true);
+            string cleanContent = Regex.Replace(currentContent, @"\t|\n|\r", "");
+            content.text = cleanContent;
 
             // Check if it has button data
-            if (node.FirstButtonText is not null) button1Text.text = node.FirstButtonText;
+            if (node.FirstButtonText is not null) 
+            {
+                button1Text.text = node.FirstButtonText;
+            }
             
-            if (node.SecondButtonText is not null) button2Text.text = node.SecondButtonText;
+            if (node.SecondButtonText is not null) 
+            {
+                button2Text.text = node.SecondButtonText;
+            }
+            else
+            {
+                button2.gameObject.SetActive(false);
+            }
 
             if (node.FirstButtonText is null)
             {
