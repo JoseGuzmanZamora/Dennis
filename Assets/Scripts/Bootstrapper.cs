@@ -34,9 +34,9 @@ public class Bootstrapper : MonoBehaviour
     public void GenerateIntroduction()
     {
         var firstNode = staticData.Nodes[0];
-        var secondNode = staticData.Nodes[1];
+        //var secondNode = staticData.Nodes[1];
         StartCoroutine(repository.GetPromptResponse(firstNode.Id, firstNode.Prompt, 0, ResultCallback));
-        StartCoroutine(repository.GetPromptResponse(secondNode.Id, secondNode.Prompt, 0, ResultCallback));
+        //StartCoroutine(repository.GetPromptResponse(secondNode.Id, secondNode.Prompt, 0, ResultCallback));
     }
 
     // Adding the result of the introduction to the dictionary
@@ -47,7 +47,7 @@ public class Bootstrapper : MonoBehaviour
     }
     
     private void Update() {
-        if (storyContent.Count >= 2 && isDone is false)
+        if (storyContent.Count >= 1 && isDone is false)
         {
             isDone = true;
         }

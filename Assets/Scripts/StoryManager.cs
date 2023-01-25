@@ -22,6 +22,7 @@ public class StoryManager : MonoBehaviour
     private PromptRepository repository = new PromptRepository();
     public bool isGeneratingFirstOption = false;
     public bool isGeneratingSecondOption = false;
+    public GameObject loader;
 
 
     void Start()
@@ -31,11 +32,17 @@ public class StoryManager : MonoBehaviour
 
     void Update()
     {
+        if (bootstrapper.isDone is false && loader.activeSelf is false)
+        {
+            loader.SetActive(true);
+        }
+
         if (isInitialized is false && bootstrapper.isDone is true)
         {
             // Initialization
             StoryInitialization();
             isInitialized = true;
+            loader.SetActive(false);
         }
 
         // Keep screen updated
@@ -115,6 +122,7 @@ public class StoryManager : MonoBehaviour
         {
             isGeneratingSecondOption = false;
         }
+        loader.SetActive(false);
     }
 
     public void StoryInitialization()
@@ -127,10 +135,20 @@ public class StoryManager : MonoBehaviour
     {
         var node = nodesStaticData[selectedNode];
         selectedNode = (int) node.FirstPathId;
+
+        if (isGeneratingFirstOption)
+        {
+            loader.SetActive(true);
+        }
     }
     public void ContinueToOption2()
     {
         var node = nodesStaticData[selectedNode];
         selectedNode = (int) node.SecondPathId;
+
+        if (isGeneratingSecondOption)
+        {
+            loader.SetActive(true);
+        }
     }
 }
