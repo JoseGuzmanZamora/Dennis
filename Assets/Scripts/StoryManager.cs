@@ -26,6 +26,9 @@ public class StoryManager : MonoBehaviour
     public bool isGeneratingSecondOption = false;
     public GameObject loader;
     public int? attemptedChoice;
+    public Image helperImage;
+    private Sprite imageOption1;
+    private Sprite imageOption2;
 
 
     void Start()
@@ -102,6 +105,7 @@ public class StoryManager : MonoBehaviour
             if (storyContent.TryGetValue(tempNode.Id, out var tempContent) is false)
             {
                 StartCoroutine(repository.GetPromptResponse(tempNode.Id, tempNode.Prompt, 1, SetGeneratedContent));
+                StartCoroutine(repository.DownloadImage(tempNode.ImageUrl, 1, SetImageValue));
             }
             else
             {
@@ -116,6 +120,7 @@ public class StoryManager : MonoBehaviour
             if (storyContent.TryGetValue(tempNode.Id, out var tempContent) is false)
             {
                 StartCoroutine(repository.GetPromptResponse(tempNode.Id, tempNode.Prompt, 2, SetGeneratedContent));
+                StartCoroutine(repository.DownloadImage(tempNode.ImageUrl, 2, SetImageValue));
             }
             else
             {
@@ -157,6 +162,7 @@ public class StoryManager : MonoBehaviour
     {
         storyContent = bootstrapper.storyContent;
         nodesStaticData = bootstrapper.staticData.Nodes.ToDictionary(k => k.Id, v => v);
+        helperImage.sprite = bootstrapper.firstImage;
     }
 
     public void ContinueToOption1()
@@ -170,6 +176,7 @@ public class StoryManager : MonoBehaviour
         {
             var node = nodesStaticData[selectedNode];
             selectedNode = (int) node.FirstPathId;
+            helperImage.sprite = imageOption1;
         }
     }
     public void ContinueToOption2()
@@ -183,6 +190,19 @@ public class StoryManager : MonoBehaviour
         {
             var node = nodesStaticData[selectedNode];
             selectedNode = (int) node.SecondPathId;
+            helperImage.sprite = imageOption2;
+        }
+    }
+
+    public void SetImageValue((Texture2D texture, int optionHelper) result)
+    {
+        if (result.optionHelper == 1)
+        {
+            imageOption1 = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
+        }
+        else
+        {
+            imageOption2 = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
         }
     }
 }

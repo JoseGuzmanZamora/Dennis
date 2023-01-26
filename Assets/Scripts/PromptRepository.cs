@@ -13,7 +13,6 @@ namespace Assets.Scripts
 
         public IEnumerator GetPromptResponse(int nodeId, string prompt, int optionHelper, Action<(string, int, int)> callback)
         {
-            yield return new WaitForSeconds(3);
             var uwr = new UnityWebRequest($"{ApiUrl}/completion", "POST");
             var request = new PromptRequest
             {
@@ -46,5 +45,23 @@ namespace Assets.Scripts
             var path = Path.Combine(Directory.GetCurrentDirectory(), "Assets/.env");
             return File.ReadAllText(path);
         }
+
+        public IEnumerator DownloadImage(string imageUrl, int optionHelper, Action<(Texture2D, int)> callback)
+        {   
+            if (imageUrl != null && imageUrl != "")
+            {
+                UnityWebRequest request = UnityWebRequestTexture.GetTexture(imageUrl);
+                yield return request.SendWebRequest();
+                if(request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
+                {
+                    Debug.Log(request.error);   
+                }
+                else
+                {
+                    var resultTexture = ((DownloadHandlerTexture) request.downloadHandler).texture;
+                    callback((resultTexture, optionHelper));
+                }
+            }
+        } 
     }
 }

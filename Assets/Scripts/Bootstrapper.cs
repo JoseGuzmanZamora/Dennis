@@ -10,6 +10,7 @@ public class Bootstrapper : MonoBehaviour
     public StoryNodes staticData;
     public PromptRepository repository;
     public Dictionary<int, string> storyContent;
+    public Sprite firstImage;
     public bool isDone = false;
     void Start()
     {
@@ -36,6 +37,7 @@ public class Bootstrapper : MonoBehaviour
         var firstNode = staticData.Nodes[0];
         //var secondNode = staticData.Nodes[1];
         StartCoroutine(repository.GetPromptResponse(firstNode.Id, firstNode.Prompt, 0, ResultCallback));
+        StartCoroutine(repository.DownloadImage(firstNode.ImageUrl, 0, SetImageValue));
         //StartCoroutine(repository.GetPromptResponse(secondNode.Id, secondNode.Prompt, 0, ResultCallback));
     }
 
@@ -44,6 +46,11 @@ public class Bootstrapper : MonoBehaviour
     {
         storyContent[result.nodeId] = result.content;
         Debug.Log(JsonConvert.SerializeObject(storyContent));
+    }
+
+    public void SetImageValue((Texture2D texture, int optionHelper) result)
+    {
+        firstImage = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
     }
     
     private void Update() {

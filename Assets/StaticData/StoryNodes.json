@@ -5,14 +5,14 @@
             "Id" : 1,
             "ReferenceName" : "Dennis Introduction",
             "Prompt" : "Compose a 5 sentence long artistic character introduction about Dennis, a writer based in Paris.",
-            "ImageUrl" : "",
+            "ImageUrl" : "https://images.unsplash.com/photo-1515859033836-a0a913c0f94a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 2
         },
         {
             "Id" : 2,
             "ReferenceName" : "Dennis wanders through the streets at night.",
             "Prompt" : "Write a brief passage about Dennis walking through the streets of his city at night. He goes back and sees two books in his apartment.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1526893381913-e311045b8064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
             "FirstButtonText" : "Read Book #1",
             "SecondButtonText" : "Read Book #2",
             "FirstPathId" : 3,
@@ -22,28 +22,28 @@
             "Id" : 3,
             "ReferenceName" : "Dennis reads book 1.",
             "Prompt" : "Write a brief passage about Dennis reading a book about a horror story in prison.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1516959000310-4eb0178333ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 5
         },
         {
             "Id" : 4,
             "ReferenceName" : "Dennis reads book 2.",
             "Prompt" : "Write a brief passage about Dennis reading a book about a horror story turned into philosophy of life.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1508169351866-777fc0047ac5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 5
         },
         {
             "Id" : 5,
             "ReferenceName" : "Dennis finishes reading, life is good.",
             "Prompt" : "Write a brief passage about Dennis life as a writer and how he feels good about his life.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1577056922125-8e5dedd099b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
             "FirstPathId" : 6
         },
         {
             "Id" : 6,
             "ReferenceName" : "Dennis takes a walk.",
             "Prompt" : "Write a brief passage about Dennis taking a stroll at night and stumbles across two paths, a normal one and a dark one.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 7,
             "SecondPathId" : 48,
             "FirstButtonText" : "Dark Path",
@@ -53,42 +53,42 @@
             "Id" : 7,
             "ReferenceName" : "Dennis goes into the dark path.",
             "Prompt" : "Write a brief passage about Dennis choosing to walk through a dark path with no people.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1596311087104-86dba6be2aad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 8
         },
         {
             "Id" : 8,
             "ReferenceName" : "Dennis sees the homeless man.",
             "Prompt" : "Write a brief passage about Dennis seeing a homeless man and getting the urge to kill him.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1607289763115-5107629a543b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
             "FirstPathId" : 9
         },
         {
             "Id" : 9,
             "ReferenceName" : "Dennis kills the man.",
             "Prompt" : "Write a brief passage about Dennis grabbing something from the floor and dropping it in the man's head, killing him.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1563486688110-3e8087cb4bb8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1174&q=80",
             "FirstPathId" : 10
         },
         {
             "Id" : 10,
             "ReferenceName" : "Dennis goes back and reflects...",
             "Prompt" : "Write a brief passage about Dennis going back to his apartment and reflecting on why he killed the man.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1520337331195-8efdf4db2064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
             "FirstPathId" : 11
         },
         {
             "Id" : 11,
             "ReferenceName" : "Dennis goes to walk in a park.",
             "Prompt" : "Write a brief passage about how the next day, Dennis took a walk in a nearby park, in a sunny day.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1587541984362-f1cbdce5a3c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
             "FirstPathId" : 12
         },
         {
             "Id" : 12,
             "ReferenceName" : "Dennis sees a woman reading a book.",
             "Prompt" : "Write a brief passage about how Dennis sees a woman reading a book and feels something weird and bad inside his head.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1464020486846-34aa429118c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80",
             "FirstPathId" : 13,
             "SecondPathId" : 39,
             "FirstButtonText" : "Kill Her",
@@ -98,14 +98,14 @@
             "Id" : 13,
             "ReferenceName" : "Dennis kills the woman",
             "Prompt" : "Write a brief passage about how Dennis approaches the woman reading, and kills her.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1639343668600-7cd838db8dad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 15
         },
         {
             "Id" : 15,
             "ReferenceName" : "Dennis goes back to his apartment.",
             "Prompt" : "Write a brief passage about how Dennis, while going back to his apartment, meets a friend who is going to a social event.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
             "FirstPathId" : 16,
             "FirstButtonText" : "Don't Go",
             "SecondButtonText" : "Go",
@@ -115,7 +115,7 @@
             "Id" : 16,
             "ReferenceName" : "Dennis doesn't go to the event, walks to tower eiffel.",
             "Prompt" : "Write a brief passage about how Dennis decides not to go to the event and plans to take a walk to a tourist spot.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1618566192606-64a8482d76e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
             "FirstPathId" : 17
         },
         {
