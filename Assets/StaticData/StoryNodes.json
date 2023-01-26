@@ -4,8 +4,8 @@
         {
             "Id" : 1,
             "ReferenceName" : "Dennis Introduction",
-            "Prompt" : "Compose a maximum 5 sentence long character introduction about Dennis, a writer based in Paris.",
-            "ImageUrl" : null,
+            "Prompt" : "Compose a 5 sentence long artistic character introduction about Dennis, a writer based in Paris.",
+            "ImageUrl" : "",
             "FirstPathId" : 2
         },
         {
