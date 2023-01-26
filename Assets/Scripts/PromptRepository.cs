@@ -13,6 +13,7 @@ namespace Assets.Scripts
 
         public IEnumerator GetPromptResponse(int nodeId, string prompt, int optionHelper, Action<(string, int, int)> callback)
         {
+            yield return new WaitForSeconds(3);
             var uwr = new UnityWebRequest($"{ApiUrl}/completion", "POST");
             var request = new PromptRequest
             {
