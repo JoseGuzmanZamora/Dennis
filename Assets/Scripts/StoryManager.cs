@@ -64,9 +64,6 @@ public class StoryManager : MonoBehaviour
 
         if (storyContent.TryGetValue(selectedNode, out var currentContent))
         {
-            button1.gameObject.SetActive(true);
-            button2.gameObject.SetActive(true);
-            button3.gameObject.SetActive(false);
             // Set the content value
             string cleanContent = Regex.Replace(currentContent, @"\t|\n|\r", "");
             content.text = cleanContent;
@@ -77,23 +74,15 @@ public class StoryManager : MonoBehaviour
                 button1Text.text = node.FirstButtonText;
                 button3Text.text = node.FirstButtonText;
             }
+            else
+            {
+                button1Text.text = "Continue";
+                button3Text.text = "Continue";
+            }
             
             if (node.SecondButtonText is not null) 
             {
                 button2Text.text = node.SecondButtonText;
-            }
-            else
-            {
-                // If the second button has no data then we show the center one
-                button1.gameObject.SetActive(false);
-                button2.gameObject.SetActive(false);
-                button3.gameObject.SetActive(true);
-            }
-
-            if (node.FirstButtonText is null)
-            {
-                button1Text.text = "Continue";
-                button3Text.text = "Continue";
             }
         }
 
@@ -174,9 +163,7 @@ public class StoryManager : MonoBehaviour
         }
         else
         {
-            var node = nodesStaticData[selectedNode];
-            selectedNode = (int) node.FirstPathId;
-            helperImage.sprite = imageOption1;
+            StoryAndButtonsSet(imageOption1, 1);
         }
     }
     public void ContinueToOption2()
@@ -188,9 +175,32 @@ public class StoryManager : MonoBehaviour
         }
         else
         {
-            var node = nodesStaticData[selectedNode];
-            selectedNode = (int) node.SecondPathId;
-            helperImage.sprite = imageOption2;
+            StoryAndButtonsSet(imageOption2, 2);
+        }
+    }
+
+    public void StoryAndButtonsSet(Sprite imageToSet, int path)
+    {
+        if (button1.gameObject.activeSelf is false)  button1.gameObject.SetActive(true);
+        if (button2.gameObject.activeSelf is false) button2.gameObject.SetActive(true);
+        if (button3.gameObject.activeSelf is true) button3.gameObject.SetActive(false);
+
+        var node = nodesStaticData[selectedNode];
+        selectedNode = path == 1 ? (int) node.FirstPathId : (int) node.SecondPathId;
+        node = nodesStaticData[selectedNode];
+        helperImage.sprite = imageToSet;
+
+        if (node.SecondButtonText is null)
+        {
+            // If the second button has no data then we show the center one
+            if (button1.gameObject.activeSelf is true)  button1.gameObject.SetActive(false);
+            if (button2.gameObject.activeSelf is true) button2.gameObject.SetActive(false);
+            if (button3.gameObject.activeSelf is false) 
+            {
+                button3.interactable = false;
+                button3.gameObject.SetActive(true);
+                button3.interactable = true;
+            }
         }
     }
 
