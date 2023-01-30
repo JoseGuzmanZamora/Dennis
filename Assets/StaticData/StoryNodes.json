@@ -122,35 +122,35 @@
             "Id" : 17,
             "ReferenceName" : "Dennis goes through the metro.",
             "Prompt" : "Write a brief passage about how in the metro, Dennis sees no people, only one man. Alone.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1529179307417-ca83d48bd790?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
             "FirstPathId" : 18
         },
         {
             "Id" : 18,
             "ReferenceName" : "Dennis kills the man.",
             "Prompt" : "Write a brief passage about how Dennis pushes the man into the metro rails and escapes the scene.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1549809334-9db9c586ea80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
             "FirstPathId" : 51
         },
         {
             "Id" : 51,
             "ReferenceName" : "Dennis goes to the tower and wonders what is happening.",
             "Prompt" : "Write a brief passage about how Dennis reaches the tourist spot and wanders for some time, reflecting on his actions.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1637050292904-6d88cc81fd6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 19
         },
         {
             "Id" : 19,
             "ReferenceName" : "Dennis stumbles across the old couple.",
             "Prompt" : "Write a brief passage about how a few days later, Dennis was walking and stumbles across an old cute couple.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1625690987114-86f5af994b49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 20
         },
         {
             "Id" : 20,
             "ReferenceName" : "Dennis has the decision to kill the couple.",
             "Prompt" : "Write a brief passage about how Dennis offers the old couple help, and feels bad about the situation.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1582675131765-a2f2243fcbb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 21,
             "FirstButtonText" : "Get'em",
             "SecondButtonText" : "Help them",
@@ -160,20 +160,20 @@
             "Id" : 21,
             "ReferenceName" : "Dennis gets killed.",
             "Prompt" : "Write a brief passage about how Dennis tries to attack the couple but the old man has a weapon. He kills Dennis...",
-            "ImageUrl" : null
+            "ImageUrl" : "https://images.unsplash.com/photo-1607768178747-f4933d20ce75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
         },
         {
             "Id" : 22,
             "ReferenceName" : "Dennis decides not to kill the couple.",
             "Prompt" : "Write a brief passage about how Dennis decides not to kill the couple and helps them find their way.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1632740527619-43b0b6ad062d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80",
             "FirstPathId" : 23
         },
         {
             "Id" : 23,
             "ReferenceName" : "Dennis reflects and might turn to the authorities.",
             "Prompt" : "Write a brief passage about how Dennis feels bad for being a serial killer and starts reflecting.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1600961381682-a313fa2ae8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80",
             "FirstPathId" : 24,
             "SecondPathId" : 25,
             "FirstButtonText" : "Turn to authorities",
@@ -183,13 +183,13 @@
             "Id" : 24,
             "ReferenceName" : "Dennis goes to jail",
             "Prompt" : "Write a brief passage about how Dennis turns himself to authorities and gets a life sentence in jail.",
-            "ImageUrl" : null
+            "ImageUrl" : "https://images.unsplash.com/photo-1646297804981-1cefdf960180?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
         },
         {
             "Id" : 25,
             "ReferenceName" : "Dennis goes to another city",
             "Prompt" : "Write a brief passage about how Dennis reforms himself and moves city, carries on with his life.",
-            "ImageUrl" : null
+            "ImageUrl" : "https://images.unsplash.com/photo-1588694926280-3ae414d06ccb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
         },
         {
             "Id" : 26,
