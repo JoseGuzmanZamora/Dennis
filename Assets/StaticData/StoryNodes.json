@@ -4,14 +4,14 @@
         {
             "Id" : 1,
             "ReferenceName" : "Dennis Introduction",
-            "Prompt" : "Compose a 5 sentence long artistic character introduction about Dennis, a writer based in Paris.",
+            "Prompt" : "Compose an artistic character introduction about Dennis, a writer based in Paris.",
             "ImageUrl" : "https://images.unsplash.com/photo-1515859033836-a0a913c0f94a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 2
         },
         {
             "Id" : 2,
             "ReferenceName" : "Dennis wanders through the streets at night.",
-            "Prompt" : "Write a brief passage about Dennis walking through the streets of his city at night. He goes back and sees two books in his apartment.",
+            "Prompt" : "Write a brief passage about how he was walking through the streets of his city at night, he goes back to his apartment and sees all his books.",
             "ImageUrl" : "https://images.unsplash.com/photo-1526893381913-e311045b8064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80",
             "FirstButtonText" : "Read Book #1",
             "SecondButtonText" : "Read Book #2",
@@ -21,7 +21,7 @@
         {
             "Id" : 3,
             "ReferenceName" : "Dennis reads book 1.",
-            "Prompt" : "Write a brief passage about Dennis reading a book about a horror story in prison.",
+            "Prompt" : "Write a brief passage about Dennis reading a book about a horror story about prison.",
             "ImageUrl" : "https://images.unsplash.com/photo-1516959000310-4eb0178333ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 5
         },
@@ -35,14 +35,14 @@
         {
             "Id" : 5,
             "ReferenceName" : "Dennis finishes reading, life is good.",
-            "Prompt" : "Write a brief passage about Dennis life as a writer and how he feels good about his life.",
+            "Prompt" : "Write a brief passage about how he enjoys his life as a writer and feels that everything is going good for him. Write in third person.",
             "ImageUrl" : "https://images.unsplash.com/photo-1577056922125-8e5dedd099b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
             "FirstPathId" : 6
         },
         {
             "Id" : 6,
             "ReferenceName" : "Dennis takes a walk.",
-            "Prompt" : "Write a brief passage about Dennis taking a stroll at night and stumbles across two paths, a normal one and a dark one.",
+            "Prompt" : "Write a brief passage about Dennis taking a stroll at night and sees a couple of streets in his way.",
             "ImageUrl" : "https://images.unsplash.com/photo-1483213097419-365e22f0f258?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 7,
             "SecondPathId" : 48,
@@ -87,7 +87,7 @@
         {
             "Id" : 12,
             "ReferenceName" : "Dennis sees a woman reading a book.",
-            "Prompt" : "Write a brief passage about how Dennis sees a woman reading a book and feels something weird and bad inside his head.",
+            "Prompt" : "Write a brief passage about how Dennis sees a woman reading a book and feels terrified somehow.",
             "ImageUrl" : "https://images.unsplash.com/photo-1464020486846-34aa429118c1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1183&q=80",
             "FirstPathId" : 13,
             "SecondPathId" : 39,
@@ -104,7 +104,7 @@
         {
             "Id" : 15,
             "ReferenceName" : "Dennis goes back to his apartment.",
-            "Prompt" : "Write a brief passage about how Dennis, while going back to his apartment, meets a friend who is going to a social event.",
+            "Prompt" : "Write a brief passage about how Dennis, while going back to his apartment, meets a friend who is going to a social event. He doesn't make a decision.",
             "ImageUrl" : "https://images.unsplash.com/photo-1517586979036-b7d1e86b3345?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
             "FirstPathId" : 16,
             "FirstButtonText" : "Don't Go",
@@ -114,7 +114,7 @@
         {
             "Id" : 16,
             "ReferenceName" : "Dennis doesn't go to the event, walks to tower eiffel.",
-            "Prompt" : "Write a brief passage about how Dennis decides not to go to the event and plans to take a walk to a tourist spot.",
+            "Prompt" : "Write a brief passage about how Dennis decides not to go to the event and plans to take a walk to the eiffel tower.",
             "ImageUrl" : "https://images.unsplash.com/photo-1618566192606-64a8482d76e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
             "FirstPathId" : 17
         },
@@ -135,7 +135,7 @@
         {
             "Id" : 51,
             "ReferenceName" : "Dennis goes to the tower and wonders what is happening.",
-            "Prompt" : "Write a brief passage about how Dennis reaches the tourist spot and wanders for some time, reflecting on his actions.",
+            "Prompt" : "Write a brief passage about how Dennis reaches the eiffel tower and wanders for some time, reflecting on his actions.",
             "ImageUrl" : "https://images.unsplash.com/photo-1637050292904-6d88cc81fd6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 19
         },
@@ -149,10 +149,10 @@
         {
             "Id" : 20,
             "ReferenceName" : "Dennis has the decision to kill the couple.",
-            "Prompt" : "Write a brief passage about how Dennis offers the old couple help, and feels bad about the situation.",
+            "Prompt" : "Write a brief passage about how Dennis offers the old couple help, but feels unstettled and scared.",
             "ImageUrl" : "https://images.unsplash.com/photo-1582675131765-a2f2243fcbb1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 21,
-            "FirstButtonText" : "Get'em",
+            "FirstButtonText" : "Kill them",
             "SecondButtonText" : "Help them",
             "SecondPathId" : 22
         },
@@ -188,7 +188,7 @@
         {
             "Id" : 25,
             "ReferenceName" : "Dennis goes to another city",
-            "Prompt" : "Write a brief passage about how Dennis reforms himself and moves city, carries on with his life.",
+            "Prompt" : "Write a brief passage about how Dennis reforms himself and moves to another city, carries on with his life.",
             "ImageUrl" : "https://images.unsplash.com/photo-1588694926280-3ae414d06ccb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
         },
         {
@@ -208,7 +208,7 @@
         {
             "Id" : 28,
             "ReferenceName" : "Dennis sees a couple riding bikes.",
-            "Prompt" : "Write a brief passage about how, while driving, Dennis sees a couple riding bikes and he feels bad.",
+            "Prompt" : "Write a brief passage about how, while driving, Dennis sees a couple riding bikes, he once again feels unsettled.",
             "ImageUrl" : "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
             "FirstPathId" : 29,
             "SecondPathId" : 32,
@@ -239,7 +239,7 @@
         {
             "Id" : 32,
             "ReferenceName" : "Dennis decides not to crash into the couple.",
-            "Prompt" : "Write a brief passage about how Dennis continues normally with his roadtrip.",
+            "Prompt" : "Write a brief passage about how Dennis continues normally with his roadtrip and he tries to relax.",
             "ImageUrl" : "https://images.unsplash.com/photo-1486180261642-d04446e54207?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 33
         },
@@ -329,7 +329,7 @@
             "ImageUrl" : "https://images.unsplash.com/photo-1516600164266-f3b8166ae679?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "SecondPathId" : 45,
             "FirstPathId" : 46,
-            "FirstButtonText" : "Poison",
+            "FirstButtonText" : "Poison Them",
             "SecondButtonText" : "Normal Serve"
         },
         {

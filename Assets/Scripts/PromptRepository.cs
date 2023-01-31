@@ -17,7 +17,7 @@ namespace Assets.Scripts
             var request = new PromptRequest
             {
                 pass = GetLocalPassport(),
-                prompt = prompt
+                prompt = $"{prompt} Make it 5 sentences long and under 100 words."
             };
             var jsonString = JsonConvert.SerializeObject(request);
             byte[] jsonToSend = new System.Text.UTF8Encoding().GetBytes(jsonString);

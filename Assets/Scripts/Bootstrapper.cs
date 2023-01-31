@@ -50,7 +50,8 @@ public class Bootstrapper : MonoBehaviour
 
     public void SetImageValue((Texture2D texture, int optionHelper) result)
     {
-        firstImage = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
+        var texture = result.texture;
+        firstImage = Sprite.Create (result.texture, new Rect (0, 0, texture.width, texture.height), new Vector2 ());
     }
     
     private void Update() {

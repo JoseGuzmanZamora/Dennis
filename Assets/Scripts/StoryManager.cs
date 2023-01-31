@@ -151,7 +151,24 @@ public class StoryManager : MonoBehaviour
     {
         storyContent = bootstrapper.storyContent;
         nodesStaticData = bootstrapper.staticData.Nodes.ToDictionary(k => k.Id, v => v);
-        helperImage.sprite = bootstrapper.firstImage;
+        SetHelperImage(bootstrapper.firstImage);
+    }
+
+    public void SetHelperImage(Sprite spriteImage)
+    {
+        helperImage.rectTransform.sizeDelta = new Vector2(spriteImage.rect.width, spriteImage.rect.height);
+        helperImage.sprite = spriteImage;
+        // if height is shorter
+        if (spriteImage.rect.height < spriteImage.rect.width)
+        {
+            helperImage.rectTransform.sizeDelta = 
+                new Vector2(1000, 350);
+        }
+        else
+        {
+            helperImage.rectTransform.sizeDelta = 
+                new Vector2(350, 1000);
+        }
     }
 
     public void ContinueToOption1()
@@ -188,7 +205,8 @@ public class StoryManager : MonoBehaviour
         var node = nodesStaticData[selectedNode];
         selectedNode = path == 1 ? (int) node.FirstPathId : (int) node.SecondPathId;
         node = nodesStaticData[selectedNode];
-        helperImage.sprite = imageToSet;
+        SetHelperImage(imageToSet);
+        //helperImage.sprite = imageToSet;
 
         if (node.SecondButtonText is null)
         {
@@ -206,13 +224,14 @@ public class StoryManager : MonoBehaviour
 
     public void SetImageValue((Texture2D texture, int optionHelper) result)
     {
+        var texture = result.texture;
         if (result.optionHelper == 1)
         {
-            imageOption1 = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
+            imageOption1 = Sprite.Create (result.texture, new Rect (0, 0, texture.width, texture.height), new Vector2 ());
         }
         else
         {
-            imageOption2 = Sprite.Create (result.texture, new Rect (0, 0, 350, 350), new Vector2 ());
+            imageOption2 = Sprite.Create (result.texture, new Rect (0, 0, texture.width, texture.height), new Vector2 ());
         }
     }
 }
