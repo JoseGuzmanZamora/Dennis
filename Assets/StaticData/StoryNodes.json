@@ -36,7 +36,7 @@
             "Id" : 5,
             "ReferenceName" : "Dennis finishes reading, life is good.",
             "Prompt" : "Write a brief passage about how he enjoys his life as a writer and feels that everything is going good for him. Write in third person.",
-            "ImageUrl" : "https://images.unsplash.com/photo-1577056922125-8e5dedd099b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+            "ImageUrl" : "https://images.unsplash.com/photo-1476231790875-016a80c274f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80",
             "FirstPathId" : 6
         },
         {
@@ -173,7 +173,7 @@
             "Id" : 23,
             "ReferenceName" : "Dennis reflects and might turn to the authorities.",
             "Prompt" : "Write a brief passage about how Dennis feels bad for being a serial killer and starts reflecting.",
-            "ImageUrl" : "https://images.unsplash.com/photo-1600961381682-a313fa2ae8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80",
+            "ImageUrl" : "https://images.unsplash.com/photo-1496188757881-c6753f20c306?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
             "FirstPathId" : 24,
             "SecondPathId" : 25,
             "FirstButtonText" : "Turn in",
