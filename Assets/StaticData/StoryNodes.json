@@ -195,21 +195,21 @@
             "Id" : 26,
             "ReferenceName" : "Dennis goes to the social event.",
             "Prompt" : "Write a brief passage about how Dennis goes to the social event with his friend and has fun.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1523379882969-04477e5c1e90?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 27
         },
         {
             "Id" : 27,
             "ReferenceName" : "Dennis goes in a road trip",
             "Prompt" : "Write a brief passage about how the next day, Dennis goes in a road trip with a rented car.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1526478512290-5397e7d2ca6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 28
         },
         {
             "Id" : 28,
             "ReferenceName" : "Dennis sees a couple riding bikes.",
             "Prompt" : "Write a brief passage about how, while driving, Dennis sees a couple riding bikes and he feels bad.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
             "FirstPathId" : 29,
             "SecondPathId" : 32,
             "FirstButtonText" : "Crash into them",
@@ -219,49 +219,49 @@
             "Id" : 29,
             "ReferenceName" : "Dennis crashes into the couple.",
             "Prompt" : "Write a brief passage about how Dennis crashes into the couple, killing them.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1563460937-8e3fd7f161f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 30
         },
         {
             "Id" : 30,
             "ReferenceName" : "Dennis finishes his trip.",
             "Prompt" : "Write a brief passage about Dennis finishing his roadtrip and looking over the city.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1557185056-45d242240206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 31
         },
         {
             "Id" : 31,
             "ReferenceName" : "Dennis starts thinking about moving countries.",
             "Prompt" : "Write a brief passage about Dennis researches which country to move to next.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1501290741922-b56c0d0884af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80",
             "FirstPathId" : 23
         },
         {
             "Id" : 32,
             "ReferenceName" : "Dennis decides not to crash into the couple.",
             "Prompt" : "Write a brief passage about how Dennis continues normally with his roadtrip.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1486180261642-d04446e54207?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 33
         },
         {
             "Id" : 33,
             "ReferenceName" : "Dennis meets a girl...",
             "Prompt" : "Write a brief passage about how Dennis meets a girl, she is into reading.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1573860838444-ae841678963d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 34
         },
         {
             "Id" : 34,
             "ReferenceName" : "Dennis relationship progresses.",
             "Prompt" : "Write a brief passage about how Dennis has a romantic dinner with this girl, in his apartment.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1604881990409-b9f246db39da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 35
         },
         {
             "Id" : 35,
             "ReferenceName" : "Dennis goes to the kitchen.",
             "Prompt" : "Write a brief passage about how Dennis, during the dinner, goes to the kitchen and grabs a knife.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1609467334293-030ac6448fd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1125&q=80",
             "FirstPathId" : 36,
             "SecondPathId" : 37,
             "FirstButtonText" : "Kill Her",
@@ -271,62 +271,62 @@
             "Id" : 36,
             "ReferenceName" : "Dennis kills the woman.",
             "Prompt" : "Write a brief passage about how Dennis kills the woman with the knife.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1604604892090-f8213a87669d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 31
         },
         {
             "Id" : 37,
             "ReferenceName" : "Dennis is in love.",
             "Prompt" : "Write a brief passage about how Dennis is in love with the girl, and can't stop thinking about her.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1494403687614-8ca3e13f154f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
             "FirstPathId" : 38
         },
         {
             "Id" : 38,
             "ReferenceName" : "Dennis is in love. End",
             "Prompt" : "Write a brief passage about how Dennis relationship progresses, he stops killing people, but keeps his secrets to himself.",
-            "ImageUrl" : null
+            "ImageUrl" : "https://images.unsplash.com/photo-1559296582-8bfa1d8818c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
         },
         {
             "Id" : 39,
             "ReferenceName" : "Dennis decides not to kill her and continues walking.",
             "Prompt" : "Write a brief passage about how Dennis continues walking in the park, feeling refreshed.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 40
         },
         {
             "Id" : 40,
             "ReferenceName" : "Dennis stumbles across a grumpy man.",
             "Prompt" : "Write a brief passage about how Dennis was walking and he bumped into a grumpy old man, who yells at him.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1633383922961-964db3c6b7a7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
             "FirstPathId" : 41
         },
         {
             "Id" : 41,
             "ReferenceName" : "Dennis kills the grumpy man.",
             "Prompt" : "Write a brief passage about how Dennis grabs the grumpy man, and kills him in a weird way.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1645403352658-b8e42d3ad4ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1691&q=80",
             "FirstPathId" : 42
         },
         {
             "Id" : 42,
             "ReferenceName" : "Dennis goes back and sleeps.",
             "Prompt" : "Write a brief passage about how Dennis goes back to his apartment, and sleeps off the panic.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1493836512294-502baa1986e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80",
             "FirstPathId" : 43
         },
         {
             "Id" : 43,
             "ReferenceName" : "Dennis gets invited to a birthday.",
             "Prompt" : "Write a brief passage about how a few weeks later, Dennis gets a call from a friend who is having a birthday.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1619016984567-6cdcde7fe7f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80",
             "FirstPathId" : 44
         },
         {
             "Id" : 44,
             "ReferenceName" : "Dennis serves drinks.",
             "Prompt" : "Write a brief passage about how, while at the birthday party, Dennis is serving some drinks to everyone.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1516600164266-f3b8166ae679?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "SecondPathId" : 45,
             "FirstPathId" : 46,
             "FirstButtonText" : "Poison",
@@ -336,41 +336,41 @@
             "Id" : 45,
             "ReferenceName" : "Dennis does not poison them",
             "Prompt" : "Write a brief passage about how Dennis serves drinks and continues to enjoy the party.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 33
         },
         {
             "Id" : 46,
             "ReferenceName" : "Dennis poisons them.",
             "Prompt" : "Write a brief passage about how, while at the party, Dennis serves drinks with poison and kills a group of people.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1604712737895-dc5dbaac07e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1077&q=80",
             "FirstPathId" : 47
         },
         {
             "Id" : 47,
             "ReferenceName" : "Dennis jumps off a bridge.",
             "Prompt" : "Write a brief passage about how Dennis can't handle being controlled by AI and runs, jumping off a bridge.",
-            "ImageUrl" : null
+            "ImageUrl" : "https://images.unsplash.com/photo-1625341529869-d0325a3deaed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
         },
         {
             "Id" : 48,
             "ReferenceName" : "Dennis walks through normal path",
             "Prompt" : "Write a brief passage about how Dennis continues walking through the normal path.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1504280221321-f8999ab71415?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
             "FirstPathId" : 49
         },
         {
             "Id" : 49,
             "ReferenceName" : "Dennis goes to do groceries.",
             "Prompt" : "Write a brief passage about how Dennis goes to grab some groceries and is relaxed.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
             "FirstPathId" : 50
         },
         {
             "Id" : 50,
             "ReferenceName" : "Dennis pushes a man.",
             "Prompt" : "Write a brief passage about how Dennis, while going back home, sees a man cycling and he pushes him into a bus.",
-            "ImageUrl" : null,
+            "ImageUrl" : "https://images.unsplash.com/photo-1517416759101-67e64aeb3138?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
             "FirstPathId" : 15
         }
     ]
