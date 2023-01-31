@@ -29,6 +29,8 @@ public class StoryManager : MonoBehaviour
     public Image helperImage;
     private Sprite imageOption1;
     private Sprite imageOption2;
+    public FadeController fader;
+    private bool isDone = false;
 
 
     void Start()
@@ -83,6 +85,15 @@ public class StoryManager : MonoBehaviour
             if (node.SecondButtonText is not null) 
             {
                 button2Text.text = node.SecondButtonText;
+            }
+
+            // End verification
+            if (node.FirstPathId is null && node.SecondPathId is null)
+            {
+                // Story is done
+                content.text = $"{content.text}...";
+                isDone = true;
+                button3Text.text = "The End";
             }
         }
 
@@ -173,6 +184,13 @@ public class StoryManager : MonoBehaviour
 
     public void ContinueToOption1()
     {
+        if (isDone)
+        {
+            fader.FadeToMenu();
+            return;
+        }
+
+        // Continue normally
         if (isGeneratingFirstOption)
         {
             loader.SetActive(true);

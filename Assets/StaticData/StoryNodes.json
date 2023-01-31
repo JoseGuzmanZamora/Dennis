@@ -176,8 +176,8 @@
             "ImageUrl" : "https://images.unsplash.com/photo-1600961381682-a313fa2ae8d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=693&q=80",
             "FirstPathId" : 24,
             "SecondPathId" : 25,
-            "FirstButtonText" : "Turn to authorities",
-            "SecondButtonText" : "Reform"
+            "FirstButtonText" : "Turn in",
+            "SecondButtonText" : "Reform Alone"
         },
         {
             "Id" : 24,
@@ -212,7 +212,7 @@
             "ImageUrl" : "https://images.unsplash.com/photo-1474552226712-ac0f0961a954?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
             "FirstPathId" : 29,
             "SecondPathId" : 32,
-            "FirstButtonText" : "Crash into them",
+            "FirstButtonText" : "Crash them",
             "SecondButtonText" : "Carry On"
         },
         {
