@@ -726,6 +726,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   firstImage: {fileID: 0}
   isDone: 0
+  staticJson: {fileID: 4900000, guid: 4043654840160423ab8370b8788a035b, type: 3}
+  envFile: {fileID: 4900000, guid: d45a59fd0139f46d29ac8e1c99c9b4c1, type: 3}
 --- !u!114 &651911356
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -753,6 +755,7 @@ MonoBehaviour:
   loader: {fileID: 1702959841}
   helperImage: {fileID: 1856062933}
   fader: {fileID: 1992107156}
+  envFile: {fileID: 4900000, guid: d45a59fd0139f46d29ac8e1c99c9b4c1, type: 3}
 --- !u!1 &702642862
 GameObject:
   m_ObjectHideFlags: 0

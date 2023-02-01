@@ -21,7 +21,7 @@ public class StoryManager : MonoBehaviour
     public Button button1;
     public Button button2;
     public Button button3;
-    private PromptRepository repository = new PromptRepository();
+    private PromptRepository repository;
     public bool isGeneratingFirstOption = false;
     public bool isGeneratingSecondOption = false;
     public GameObject loader;
@@ -31,11 +31,13 @@ public class StoryManager : MonoBehaviour
     private Sprite imageOption2;
     public FadeController fader;
     private bool isDone = false;
+    public TextAsset envFile;
 
 
     void Start()
     {
         storyContent = new Dictionary<int, string>();
+        repository = new PromptRepository(envFile);
     }
 
     void Update()

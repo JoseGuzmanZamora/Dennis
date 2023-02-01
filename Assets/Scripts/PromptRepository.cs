@@ -10,6 +10,12 @@ namespace Assets.Scripts
     public class PromptRepository
     {
         private const string ApiUrl = "https://dennis-backend.fly.dev";
+        public TextAsset envFile;
+
+        public PromptRepository(TextAsset envFile)
+        {
+            this.envFile = envFile;
+        }
 
         public IEnumerator GetPromptResponse(int nodeId, string prompt, int optionHelper, Action<(string, int, int)> callback)
         {
@@ -24,6 +30,10 @@ namespace Assets.Scripts
             uwr.uploadHandler = (UploadHandler)new UploadHandlerRaw(jsonToSend);
             uwr.downloadHandler = (DownloadHandler)new DownloadHandlerBuffer();
             uwr.SetRequestHeader("Content-Type", "application/json");
+            uwr.SetRequestHeader("Access-Control-Allow-Credentials", "true");
+            uwr.SetRequestHeader("Access-Control-Allow-Headers", "Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time");
+            uwr.SetRequestHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+            uwr.SetRequestHeader("Access-Control-Allow-Origin", "*");
 
             //Send the request then wait here until it returns
             yield return uwr.SendWebRequest();
@@ -42,8 +52,7 @@ namespace Assets.Scripts
         
         public string GetLocalPassport()
         {
-            var path = Path.Combine(Directory.GetCurrentDirectory(), "Assets/.env");
-            return File.ReadAllText(path);
+            return envFile.text;
         }
 
         public IEnumerator DownloadImage(string imageUrl, int optionHelper, Action<(Texture2D, int)> callback)

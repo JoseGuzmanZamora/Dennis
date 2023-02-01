@@ -15,13 +15,13 @@ public class FadeController : MonoBehaviour
     {
         anim.Play("FadeIn");
         //yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 
     public void FadeToMenu()
     {
         anim.Play("FadeIn");
         //yield return new WaitForSeconds(1);
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(0);
     }
 }

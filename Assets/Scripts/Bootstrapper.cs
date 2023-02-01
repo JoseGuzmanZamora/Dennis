@@ -12,10 +12,12 @@ public class Bootstrapper : MonoBehaviour
     public Dictionary<int, string> storyContent;
     public Sprite firstImage;
     public bool isDone = false;
+    public TextAsset staticJson;
+    public TextAsset envFile;
     void Start()
     {
         storyContent = new Dictionary<int, string>();
-        repository = new PromptRepository();
+        repository = new PromptRepository(envFile);
         staticData = LoadStaticData();
         GenerateIntroduction();
     }
@@ -23,12 +25,7 @@ public class Bootstrapper : MonoBehaviour
     // Read static data from json
     public StoryNodes LoadStaticData()
     {
-        var path = Path.Combine(Directory.GetCurrentDirectory(), "Assets/StaticData/StoryNodes.json");
-        using (StreamReader r = new StreamReader(path))
-        {
-            string stringValue = r.ReadToEnd();
-            return JsonConvert.DeserializeObject<StoryNodes>(stringValue);
-        }
+        return JsonConvert.DeserializeObject<StoryNodes>(staticJson.text);
     }
 
     // Loop through static data and start generating the story
